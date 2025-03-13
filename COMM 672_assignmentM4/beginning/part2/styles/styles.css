@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    width:960px;
+    max-width:100%;
+    margin:20px;
+
+}
+
+/** Nav Styles **/
+nav a.active{
+    color: #222E50
+}
+
+nav ul li{
+    list-style-type:none; 
+    font-size: 1em;
+    line-height: 2em;
+    text-indent: -30px;
+}    
+a, h2 {
+    color:purple;
+}
+
+.title-feat {
+    font-weight: bold;
+}
+
+
+img {
+
+}
+
+/** h2 feature headings**/
+.headerBox{
+    border: 1px solid #222E50;
+    border-radius: 5px;
+    background-color: #efefef;
+    color:#B3679B;
+    padding-left: 10px;
+}
+
+/** About Page **/
+.imageBox{
+    border-image-width: 100%;
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10%;
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+th, td{
+    padding: 20px;
+}
+
+.imgCell{
+    background-color: #efefef;
+    text-align: center;
+    width: 100px;
+}
+
+/** Features Page**/
+.feature-container{  
+    background-color:#efefef;
+    padding: 10px;
+    margin: 20px;
+    border: 0px;
+    border-radius: 10px; 
+}
+
+.feature-container img {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.feature-container p:first-child {
+    font-size: 20px;
+    text-align: center;
+}
+
+.feature-container p:nth-child(2) {
+    text-align: center;
+}
+
+.feature-container p:last-child {
+    text-align: right;
+}
+
+div ul{
+    ul:li 
+}
+
+/** Community Page **/
+.community div {
+    width: 300px;
+	border: 1px solid #222E50;
+	border-radius: 10px;
+	margin: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+.community img {
+        max-width: 300px;
+    
+}
+
+.community hr {
+    height: 5px;
+    color: green;
+    background: green;
+}
